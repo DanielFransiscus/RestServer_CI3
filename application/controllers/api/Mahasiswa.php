@@ -14,7 +14,7 @@ class Mahasiswa extends RestController
     $this->load->model('Mahasiswa_model', 'mahasiswa');
     $this->methods['index_get']['limit'] = 10000;
     date_default_timezone_set('Asia/Jakarta');
-    //limit hit ap i
+    //limit hit api
   }
 
   public function rules()
@@ -43,8 +43,6 @@ class Mahasiswa extends RestController
     ];
     return $rules;
   }
-
-
 
   public function index_get($id = null)
   {
@@ -228,7 +226,6 @@ class Mahasiswa extends RestController
     return $this->response($response, $response['code']);
   }
 
-
   public function index_put($id)
   {
     if (!empty($id)) {
@@ -319,9 +316,6 @@ class Mahasiswa extends RestController
       return $this->response($response, $response['code']);
     }
   }
-
-
-
 
   public function index_delete($id)
   {
