@@ -1,5 +1,5 @@
 
-# # API-Mahasiswa
+# API-Mahasiswa
 
 Proyek ini adalah sebuah aplikasi web yang dibangun menggunakan framework Codeigniter versi 3.1.13. RESTful API ini  digunakan untuk mengelola data mahasiswa. Proyek ini dibuat untuk tujuan pembelajaran.
 
@@ -22,7 +22,7 @@ Permintaan :
     username : daniel
     password : frans123
 
-## ## Dapatkan Semua Mahasiswa
+## Dapatkan Semua Mahasiswa
 Permintaan :
 [GET] {base_url}/api/mahasiswa
 
