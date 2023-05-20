@@ -1,7 +1,7 @@
 
 # API-Mahasiswa
 
-Proyek ini adalah sebuah aplikasi web yang dibangun menggunakan framework Codeigniter versi 3.1.13. RESTful API ini  digunakan untuk mengelola data mahasiswa. Proyek ini dibuat untuk tujuan pembelajaran.
+ RESTful API dibangun menggunakan framework Codeigniter versi 3.1.13. RESTful API ini  digunakan untuk mengelola data mahasiswa. Proyek ini dibuat untuk tujuan pembelajaran.
 
 ## Persyaratan Server:
 
