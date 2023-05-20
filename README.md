@@ -64,7 +64,7 @@ Respons :
 
 ## Paginasi
 Permintaan :
-[GET] {base_url}/mahasiswa?page=1
+[GET] {base_url}/api/mahasiswa?page=1
 
 Respons :
 ```json 
