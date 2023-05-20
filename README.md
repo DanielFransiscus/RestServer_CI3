@@ -64,7 +64,7 @@ Respons :
 
 ## Paginasi
 Permintaan :
-[GET] {base_url}/api/mahasiswa?page=1
+[GET] {base_url}/api/mahasiswa?page={page number}
 
 Respons :
 ```json 
@@ -104,7 +104,7 @@ Respons :
 
 ##  Dapatkan Satu Mahasiswa
 Permintaan :
-[GET] {base_url}/api/mahasiswa/71
+[GET] {base_url}/api/mahasiswa/{id mahasiswa}
 
 Respons :
 ```json 
@@ -151,7 +151,7 @@ Respons :
 
 ## Update Mahasiswa
 Permintaan : 
-[POST] {base_url}/api/mahasiswa/72
+[POST] {base_url}/api/mahasiswa/{id mahasiswa}
 
 Body (form-data):
 
@@ -179,7 +179,7 @@ Respons :
 
 ## Menghapus Mahasiswa
 Permintaan :
-[DELETE] {base_url}/api/mahasiswa/72
+[DELETE] {base_url}/api/mahasiswa/{id mahasiswa}
 
 Respons :
  tidak ada karena 204 no content
