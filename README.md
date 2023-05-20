@@ -152,6 +152,7 @@ Respons :
 ## Update Mahasiswa
 Permintaan : 
 [POST] {base_url}/api/mahasiswa/72
+
 Body (form-data):
 
 -   nama 			: [nama mahasiswa]
