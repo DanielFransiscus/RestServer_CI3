@@ -22,7 +22,7 @@ Permintaan :
     username : daniel
     password : frans123
 
-## Dapatkan Semua Mahasiswa
+## Mendapatkan Semua Data Mahasiswa
 Permintaan :
 [GET] {base_url}/api/mahasiswa
 
@@ -102,7 +102,7 @@ Respons :
 }
 ```
 
-##  Dapatkan Satu Mahasiswa
+##  Mendapatkan Satu Data Mahasiswa
 Permintaan :
 [GET] {base_url}/api/mahasiswa/{id mahasiswa}
 
@@ -123,7 +123,7 @@ Respons :
 }
 ```
 
-## Tambahkan Mahasiswa
+## Menambahkan Data Mahasiswa
 Permintaan : 
 [POST] {base_url}/api/mahasiswa
 
@@ -149,7 +149,7 @@ Respons :
 }
 ```
 
-## Update Mahasiswa
+## Mengubah Data Mahasiswa
 Permintaan : 
 [POST] {base_url}/api/mahasiswa/{id mahasiswa}
 
@@ -177,7 +177,7 @@ Respons :
 }
 ```
 
-## Menghapus Mahasiswa
+## Menghapus Data Mahasiswa
 Permintaan :
 [DELETE] {base_url}/api/mahasiswa/{id mahasiswa}
 
