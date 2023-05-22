@@ -15,16 +15,15 @@
 
 ## Authentication
 Semua API harus menggunakan autentikasi berikut:
+
 Permintaan :
 - Header :
     - X-API-KEY : "wpu123"
-    - Authorization: Basic 
-    username : daniel
-    password : frans123
+    - Authorization: Basic username : daniel,  password : frans123
 
 ## Mendapatkan Semua Data Mahasiswa
 Permintaan :
-[GET] {base_url}/api/mahasiswa
+[GET] /mahasiswa
 
 Respons :
 ```json 
@@ -64,7 +63,7 @@ Respons :
 
 ## Paginasi
 Permintaan :
-[GET] {base_url}/api/mahasiswa?page={page number}
+[GET] /mahasiswa?page={page number}
 
 Respons :
 ```json 
@@ -104,7 +103,7 @@ Respons :
 
 ##  Mendapatkan Satu Data Mahasiswa
 Permintaan :
-[GET] {base_url}/api/mahasiswa/{id mahasiswa}
+[GET] /mahasiswa/{id mahasiswa}
 
 Respons :
 ```json 
@@ -125,12 +124,12 @@ Respons :
 
 ## Menambahkan Data Mahasiswa
 Permintaan : 
-[POST] {base_url}/api/mahasiswa
+[POST] /mahasiswa
 
 Body (form-data):
--   nama		: [nama mahasiswa]
--   email		: [email mahasiswa]
--   jurusan	: [jurusan mahasiswa]
+-   nama		
+-   email		
+-   jurusan	
 -  gambar	: [optional]
 
 Respons :
@@ -151,13 +150,13 @@ Respons :
 
 ## Mengubah Data Mahasiswa
 Permintaan : 
-[POST] {base_url}/api/mahasiswa/{id mahasiswa}
+[POST] /mahasiswa/{id mahasiswa}
 
 Body (form-data):
 
--   nama 			: [nama mahasiswa]
--   email			: [email mahasiswa]
--   jurusan		: [jurusan mahasiswa]
+-   nama 			
+-   email			
+-   jurusan		
 - gambar		: [optional]
 - _method	: PUT
 
@@ -179,7 +178,7 @@ Respons :
 
 ## Menghapus Data Mahasiswa
 Permintaan :
-[DELETE] {base_url}/api/mahasiswa/{id mahasiswa}
+[DELETE] /mahasiswa/{id mahasiswa}
 
 Respons :
  tidak ada karena 204 no content
