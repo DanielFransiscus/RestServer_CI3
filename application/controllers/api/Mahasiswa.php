@@ -50,7 +50,6 @@ class Mahasiswa extends RestController
     $page = $this->input->get('page');
     $limit = 5; // Set a valid default value here
     $response = [];
-
     // Validate page value
     if ($page !== null && (!ctype_digit($page) || $page < 1)) {
       $response = [
